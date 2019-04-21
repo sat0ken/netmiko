@@ -69,6 +69,7 @@ from netmiko.terminal_server import TerminalServerSSH
 from netmiko.terminal_server import TerminalServerTelnet
 from netmiko.ubiquiti import UbiquitiEdgeSSH
 from netmiko.vyos import VyOSSSH
+from netmiko.yamaha import YamahaSSH
 from netmiko.oneaccess import OneaccessOneOSTelnet, OneaccessOneOSSSH
 
 
@@ -145,6 +146,7 @@ CLASS_MAPPER_BASE = {
     "ubiquiti_edgeswitch": UbiquitiEdgeSSH,
     "vyatta_vyos": VyOSSSH,
     "vyos": VyOSSSH,
+    "yamaha": YamahaSSH,
     "oneaccess_oneos": OneaccessOneOSSSH,
 }
 
